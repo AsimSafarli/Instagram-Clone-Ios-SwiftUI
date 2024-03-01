@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct SearchView: View {
+    @State private var searchText = ""
     var body: some View {
-        Text("Search, World!")
+        NavigationStack {
+            ScrollView {
+                LazyVStack{
+                    ForEach(0...20,id: \.self){
+                        post in SearchProfileView(profileImage: "ppff", profileName: "asimsafar", name: "Asim Safar")
+                    }
+                    
+                }
+                .searchable(text:$searchText ,prompt: "Search..."  )
+            }
+            .navigationTitle("Search")
+            .navigationBarTitleDisplayMode(.inline)
+        }
     }
 }
 

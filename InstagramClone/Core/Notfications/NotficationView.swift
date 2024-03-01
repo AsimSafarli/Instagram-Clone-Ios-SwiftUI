@@ -9,9 +9,22 @@ import SwiftUI
 
 struct NotficationView: View {
     var body: some View {
-        Text("Notfications, World!")
+        NavigationStack {
+            ScrollView {
+                LazyVStack{
+                    ForEach(0...20,id: \.self){
+                        post in CellNotficationView()
+                    }
+                    
+                }
+            }
+            .navigationTitle("Notfication")
+            .navigationBarTitleDisplayMode(.inline)
+        }
     }
 }
+
+
 
 struct NotficationView_Previews: PreviewProvider {
     static var previews: some View {

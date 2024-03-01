@@ -23,7 +23,7 @@ struct MainTabView: View {
                     Image(systemName: "plus.square")
                 }
             
-            Text("Notfications")
+            NotficationView()
                 .tabItem{
                     Image(systemName: "heart")
                 }
