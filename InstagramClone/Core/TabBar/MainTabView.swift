@@ -20,6 +20,7 @@ struct MainTabView: View {
                 }
             UploadPostView()
                 .tabItem{
+                    
                     Image(systemName: "plus.square")
                 }
             

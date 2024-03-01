@@ -22,6 +22,7 @@
 		7CBB1B2B2B89C11E0041F5BE /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBB1B2A2B89C11E0041F5BE /* MainTabView.swift */; };
 		7CBB1B302B89FA250041F5BE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBB1B2F2B89FA250041F5BE /* ProfileView.swift */; };
 		7CCD4AB42B91F2F90083A326 /* CellNotficationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCD4AB32B91F2F90083A326 /* CellNotficationView.swift */; };
+		7CCD4AB62B91F9F00083A326 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCD4AB52B91F9F00083A326 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		7CBB1B2A2B89C11E0041F5BE /* MainTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		7CBB1B2F2B89FA250041F5BE /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		7CCD4AB32B91F2F90083A326 /* CellNotficationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellNotficationView.swift; sourceTree = "<group>"; };
+		7CCD4AB52B91F9F00083A326 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,43 +78,9 @@
 			isa = PBXGroup;
 			children = (
 				7C6AE7C32B8B3E2E004044CD /* UploadPostView.swift */,
+				7CCD4AB52B91F9F00083A326 /* ImagePicker.swift */,
 			);
 			path = UploadPost;
-			sourceTree = "<group>";
-		};
-		7C6AE7BE2B8B3DB2004044CD /* Auth */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Auth;
-			sourceTree = "<group>";
-		};
-		7C6AE7BF2B8B3DBF004044CD /* Modal */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Modal;
-			sourceTree = "<group>";
-		};
-		7C6AE7C02B8B3DCD004044CD /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		7C6AE7C12B8B3DDB004044CD /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		7C6AE7C22B8B3DF9004044CD /* App */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = App;
 			sourceTree = "<group>";
 		};
 		7C6AE7C72B8B3FE6004044CD /* Notfications */ = {
@@ -151,10 +119,6 @@
 		7CBB1B102B89BB770041F5BE /* InstagramClone */ = {
 			isa = PBXGroup;
 			children = (
-				7C6AE7C22B8B3DF9004044CD /* App */,
-				7C6AE7C12B8B3DDB004044CD /* Service */,
-				7C6AE7C02B8B3DCD004044CD /* Extensions */,
-				7C6AE7BF2B8B3DBF004044CD /* Modal */,
 				7CBB1B2C2B89C18F0041F5BE /* Core */,
 				7CBB1B132B89BB770041F5BE /* ContentView.swift */,
 				7CBB1B112B89BB770041F5BE /* InstagramCloneApp.swift */,
@@ -177,7 +141,6 @@
 			children = (
 				7C6AE7CC2B8B46CD004044CD /* Components */,
 				7C6AE7C72B8B3FE6004044CD /* Notfications */,
-				7C6AE7BE2B8B3DB2004044CD /* Auth */,
 				7C6AE7BD2B8B3D9C004044CD /* UploadPost */,
 				7C6AE7BC2B8B3D93004044CD /* Search */,
 				7C6AE7BB2B8B3D88004044CD /* Feed */,
@@ -277,6 +240,7 @@
 				7C212A892B8B608E00B36218 /* SearchProfileView.swift in Sources */,
 				7C485B4D2B8B3CBA00B55A3E /* FeedView.swift in Sources */,
 				7C6AE7D02B8B4EEC004044CD /* FeedCellView.swift in Sources */,
+				7CCD4AB62B91F9F00083A326 /* ImagePicker.swift in Sources */,
 				7C6AE7C92B8B3FF2004044CD /* NotficationView.swift in Sources */,
 				7C6AE7C42B8B3E2E004044CD /* UploadPostView.swift in Sources */,
 				7C6AE7CE2B8B46E9004044CD /* UserStatView.swift in Sources */,
